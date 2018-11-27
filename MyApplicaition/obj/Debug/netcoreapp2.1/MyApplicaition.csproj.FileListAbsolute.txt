@@ -1,0 +1,14 @@
+C:\Users\santosh\Desktop\MyApplicaition\MyApplicaition\bin\Debug\netcoreapp2.1\MyApplicaition.deps.json
+C:\Users\santosh\Desktop\MyApplicaition\MyApplicaition\bin\Debug\netcoreapp2.1\MyApplicaition.runtimeconfig.json
+C:\Users\santosh\Desktop\MyApplicaition\MyApplicaition\bin\Debug\netcoreapp2.1\MyApplicaition.runtimeconfig.dev.json
+C:\Users\santosh\Desktop\MyApplicaition\MyApplicaition\bin\Debug\netcoreapp2.1\MyApplicaition.dll
+C:\Users\santosh\Desktop\MyApplicaition\MyApplicaition\obj\Debug\netcoreapp2.1\MyApplicaition.csproj.CoreCompileInputs.cache
+C:\Users\santosh\Desktop\MyApplicaition\MyApplicaition\obj\Debug\netcoreapp2.1\MyApplicaition.RazorAssemblyInfo.cache
+C:\Users\santosh\Desktop\MyApplicaition\MyApplicaition\obj\Debug\netcoreapp2.1\MyApplicaition.RazorAssemblyInfo.cs
+C:\Users\santosh\Desktop\MyApplicaition\MyApplicaition\obj\Debug\netcoreapp2.1\MyApplicaition.AssemblyInfoInputs.cache
+C:\Users\santosh\Desktop\MyApplicaition\MyApplicaition\obj\Debug\netcoreapp2.1\MyApplicaition.AssemblyInfo.cs
+C:\Users\santosh\Desktop\MyApplicaition\MyApplicaition\obj\Debug\netcoreapp2.1\MyApplicaition.RazorTargetAssemblyInfo.cache
+C:\Users\santosh\Desktop\MyApplicaition\MyApplicaition\bin\Debug\netcoreapp2.1\MyApplicaition.pdb
+C:\Users\santosh\Desktop\MyApplicaition\MyApplicaition\obj\Debug\netcoreapp2.1\MyApplicaition.dll
+C:\Users\santosh\Desktop\MyApplicaition\MyApplicaition\obj\Debug\netcoreapp2.1\MyApplicaition.pdb
+C:\Users\santosh\Desktop\MyApplicaition\MyApplicaition\obj\Debug\netcoreapp2.1\MyApplicaition.csprojAssemblyReference.cache

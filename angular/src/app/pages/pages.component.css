@@ -1,0 +1,40 @@
+.head{
+    background: black;
+    color: white
+}
+.left,.right{
+    padding: 10px;
+}
+.qq{
+    min-height: 90vh;
+    background: grey;
+    color: black;
+    padding: 10px;
+}
+.q{
+    margin-bottom: 15px;
+}
+.box1{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box2{
+    background: red;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box3{
+    background: black;
+    height: 20px;
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}

@@ -1,0 +1,67 @@
+<div class="container">
+  <h1>Employee Info</h1>
+  <button class="btn btn-md btn-primary" style="float:right" routerLink="/add-employee">Add Employee</button>
+  <br><br>
+  <table class="table">
+    <thead class="thead-dark">
+      <tr>
+        <th scope="col">Id</th>
+        <th scope="col">Name</th>
+        <th scope="col">Age</th>
+        <th scope="col">Salary</th>
+        <th scope="col">Date of joining</th>
+        <th scope="col">Created By</th>
+        <th scope="col">Created Ts</th>
+        <th scope="col">Last Updated by</th>
+        <th scope="col">Last Updated Ts</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td scope="1">{{id}}</td>
+        <td>{{name}}</td>
+        <td>{{age}}</td>
+        <td>{{salary}}</td>
+        <td>{{doj}}</td>
+        <td>{{cb}}</td>
+        <td>{{ct}}</td>
+        <td>{{lub}}</td>
+        <td>{{lut}}</td>
+      </tr>
+    </tbody>
+  </table>
+<div>
+  <h1>All Employees</h1>
+  <br>
+  <table class="table">
+      <thead class="thead-light">
+        <tr>
+          <th scope="col">Id</th>
+          <th scope="col">Name</th>
+          <th scope="col">Age</th>
+          <th scope="col">Salary</th>
+          <th scope="col">Date of joining</th>
+          <th scope="col">Created By</th>
+          <th scope="col">Created Ts</th>
+          <th scope="col">Last Updated by</th>
+          <th scope="col">Last Updated Ts</th>
+          <th scope="col">Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let e of employees">
+          <td scope="1">{{e.e_id}}</td>
+          <td>{{e.e_Name}}</td>
+          <td>{{e.e_Age}}</td>
+          <td>{{e.e_Salary}}</td>
+          <td>{{e.e_dateofjoining}}</td>
+          <td>{{e.e_createdby}}</td>
+          <td>{{e.e_createdts}}</td>
+          <td>{{e.e_lastupdatedby}}</td>
+          <td>{{e.e_lastupdatedts}}</td>
+          <td><a style="color:green;cursor:pointer" routerLink="/edit-employee/{{e.e_id}}">Edit</a> | <a style="color:red;cursor:pointer" routerLink="/dashboard"(click)="delete(e)">Delete</a></td>
+        </tr>
+      </tbody>
+    </table>
+</div>
+</div>
